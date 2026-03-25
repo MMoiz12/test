@@ -1,0 +1,81 @@
+/* p{
+    font-size: 15px;
+    color: green;
+    transition: all;
+    transition-duration: 1s;
+    
+
+
+} */
+/* 
+p:hover{
+    font-size: 25px;
+    color: blue;
+} */
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    transform: rotate(360deg);
+    transition: all 1s linear;
+    /* animation-name:colorEffect; */
+    animation-duration: 10s;
+    animation-timing-function: linear;
+
+    /* animation-delay: 5s;  */
+    animation-iteration-count: infinite;
+
+}
+
+/* #box:hover{
+    transform: rotate(360deg);
+
+
+
+} */
+
+
+@keyframes colorEffect{
+
+  20%{
+    background-color: green;
+
+  }
+  40%{
+    background-color: red;
+    
+  }
+  60%{
+    background-color: blue;
+    
+  }
+  80%{
+    background-color: black;
+    
+  }
+  100%{
+    background-color: rgb(193, 172, 172);
+    
+  }
+
+
+}
+
+
+
+
+
+/* card ke lye css laga raha hn */
+
+
+.card{
+  padding: 10px;
+  width: 270px;
+  min-height: 320px;
+  border: 2px solid grey;
+}
+img{
+  width: 100%;
+}
